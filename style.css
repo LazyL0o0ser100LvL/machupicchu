@@ -746,6 +746,7 @@ label {
   width: 35px;
   height: 35px;
   opacity: 0.6;
+  transition: background 0.5s;
 }
 
 .rombus-white:hover{
@@ -764,14 +765,8 @@ label {
     width: 35px;
     height: 35px;
     opacity: 0.6;
+    transition: background 0.5s;
 }
-/* .rombus-white:active{
-    background: url(./img/icons/romb-activ.svg);
-    background-size: contain;
-    width: 35px;
-    height: 35px;
-    opacity: 0.6;
-} */
 
 .agree {
   width: 180px;
