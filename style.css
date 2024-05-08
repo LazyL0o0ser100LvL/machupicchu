@@ -421,18 +421,35 @@ h4 {
   box-shadow: 0px 0px 3px 1px rgba(168, 140, 67, 1);
   font-family: Baron-regular, sans-serif;
   letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+/* .baton:hover {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 60px;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+  box-shadow: 0px 0px 3px 1px rgba(168, 140, 67, 1);
+  font-family: Baron-regular, sans-serif;
+  letter-spacing: 2px;
+  background-color: #a88c43;
+  color: white;
+  transition: all 0.5s;
 }
 
 .btn {
   text-shadow: 0px 0px 2px rgba(168, 140, 67, 1);
-}
+} */
 
 .tours-title {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .tours {
@@ -467,10 +484,16 @@ h4 {
   position: relative;
 }
 
+.guide-chel {
+  width: 1200px;
+  height: 800px;
+  object-fit: cover;
+}
+
 .classic-tour {
   position: absolute;
   top: 660px;
-  left: 570px;
+  left: 750px;
 }
 
 .text-machu {
@@ -520,20 +543,26 @@ h4 {
 }
 
 .tour-dates {
-  width: 900px;
+  width: 710px;
   z-index: 1;
 }
 
 .tour-date {
   display: flex;
   flex-direction: row;
-  width: 786px;
+  width: 800px;
   float: right;
   margin-right: -35px;
   padding: 24px;
+  transition: 0.5s;
 }
 
-.tour-date + .active {
+.tour-date:hover {
+    background-color: #a88c43;
+    transition: 0.5s;
+}
+
+.tour-date.active {
   background-color: #a88c43;
 }
 
@@ -643,13 +672,275 @@ h4 {
   margin-left: 73px;
   position: absolute;
   margin-top: 650px;
+  transition: all 0.5s;
+}
+
+.batton-2:hover {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0px 0px 3px 1px rgba(168, 140, 67, 1);
+  font-family: Baron-regular, sans-serif;
+  letter-spacing: 2px;
+  margin-left: 73px;
+  position: absolute;
+  margin-top: 650px;
+  background-color:#a88c43;
+  color: white;
+  transition: all 0.5s;
 }
 
 .btn-2 {
   text-shadow: 0px 0px 2px rgba(168, 140, 67, 1);
 }
 
-.container-3 {
+/* .container-4 {
+  display: flex;
+  flex-direction: row;
+} */
+
+.whyus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 250px;
+}
+
+.facts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.fact {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.img-travel {
+  height: 200px;
+  width: 100%;
+  background-image: url(./img/snowrainbow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-black {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgba(19, 32, 25, 0) 0%,
+    rgba(19, 32, 25, 1) 0%,
+    rgba(19, 32, 25, 0) 100%
+  );
+  border-image-slice: 1;
+  width: 350px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.border-black:hover {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgba(168, 140, 67, 0) 0%,
+    rgba(168, 140, 67, 0.7511379551820728) 50%,
+    rgba(168, 140, 67, 0) 100%
+  );
+  border-image-slice: 1;
+  width: 350px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.black-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 60px;
+  background-color: #132019;
+  box-shadow: 0px 0px 3px 1px rgba(19, 32, 25, 1);
+  font-family: Baron-regular, sans-serif;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.black-btn:hover {
+  background-color: #a88c43;
+  transition: 0.5s;
+  box-shadow: 0px 0px 3px 1px rgba(168, 140, 67, 1);
+}
+
+.all {
+  opacity: 0.5;
+}
+
+.container-5 {
+  margin-top: 200px;
+  height: 1000px;
+}
+
+.best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.team_1 {
+  margin-top: 20px;
+}
+
+.pride {
+  text-align: center;
+}
+
+.our-piple {
+  margin-top: 100px;
+}
+
+.our-guide {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.people {
+  width: 350px;
+  height: 550px;
+  
+}
+
+.artemiy {
+  position: absolute;
+  top: -50px;
+  left: 250px;
+}
+
+.guide-1 {
+  background-image: url(./img/чел1.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.eveline {
+  position: absolute;
+  top: 80px;
+  left: 610px;
+}
+
+.guide-2 {
+  background-image: url(./img/чел2.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.aleks {
+  position: absolute;
+  right: 540px;
+}
+
+.guide-3 {
+  background-image: url(./img/чел3.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.jayson {
+  position: absolute;
+  top: -130px;
+  right: 180px;
+}
+
+.guide-4 {
+  background-image: url(./img/чел4.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+  
+}
+
+.name-guide {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 30px 0 15px 0;
+}
+
+.job-title {
+  color: #a88c43;
+  margin: 0;
+  line-height: 20px;
+}
+
+.border-yellow {
+  border: 1px solid #a88c43;
+  width: 300px;
+  height: 500px;
+}
+
+.border-1 {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.border-2 {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.border-3 {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.border-4 {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  z-index: -1;
+}
+
+.container-7 {
   display: flex;
   flex-direction: row;
   position: relative;
@@ -881,7 +1172,7 @@ label {
       rgba(19, 32, 25, 0.7959558823529411) 50%,
       rgba(19, 32, 25, 1) 100%
     ),
-    url(./img/footer.webp);
+    url(./img/footer.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
