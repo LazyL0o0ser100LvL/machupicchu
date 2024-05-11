@@ -40,7 +40,6 @@ body {
       rgba(0, 0, 0, 0)
     ),
     url(./img/fon.jpg);
-  /* background-image: url(../img/fon.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -425,26 +424,6 @@ h4 {
   transition: all 0.5s;
 }
 
-/* .baton:hover {
-  display: flex;
-  justify-content: center;
-  width: 350px;
-  height: 60px;
-  margin: auto;
-  margin-top: 50px;
-  align-items: center;
-  box-shadow: 0px 0px 3px 1px rgba(168, 140, 67, 1);
-  font-family: Baron-regular, sans-serif;
-  letter-spacing: 2px;
-  background-color: #a88c43;
-  color: white;
-  transition: all 0.5s;
-}
-
-.btn {
-  text-shadow: 0px 0px 2px rgba(168, 140, 67, 1);
-} */
-
 .tours-title {
   display: flex;
   flex-direction: column;
@@ -727,6 +706,83 @@ h4 {
   align-items: center;
   gap: 30px;
   margin-top: 250px;
+  position: relative;
+}
+
+.fern_1 {
+  background-image: linear-gradient(0deg, rgba(19,32,25,1) 0%, rgba(19, 32, 25, 0.925) 50%, rgb(19, 32, 25) 100%),
+    url(./img/fern/fern22.png);
+  width: 350px;
+  height: 350px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 50px;
+  top: -200px;
+  rotate: -20deg;
+  z-index: -1;
+}
+
+.fern_2 {
+  background-image: linear-gradient(0deg, rgba(19,32,25,1) 0%, rgba(19, 32, 25, 0.964) 50%, rgba(19, 32, 25, 0.889) 100%),
+    url(./img/fern/fern3.png);
+  width: 250px;
+  height: 250px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  left: -10px;
+  top: -200px;
+  rotate: -40deg;
+  z-index: -1;
+}
+
+.fern_3 {
+  background-image: linear-gradient(0deg, rgba(19,32,25,1) 0%, rgba(19, 32, 25, 0.964) 50%, rgb(19, 32, 25) 100%),
+    url(./img/fern/fern4.png);
+  width: 250px;
+  height: 370px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  left:160px;
+  top: 60px;
+  rotate: -80deg;
+  z-index: -1;
+}
+
+.fern_4 {
+  background-image: linear-gradient(90deg, rgba(19,32,25,1) 0%, rgba(19, 32, 25, 0.982) 50%, rgb(19, 32, 25) 100%),
+    url(./img/fern/fern-4.png);
+  width: 450px;
+  height: 100px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  rotate: -10deg;
+  z-index: -1;
 }
 
 .facts {
@@ -735,6 +791,7 @@ h4 {
   margin-top: 100px;
   justify-content: center;
   gap: 50px;
+  
 }
 
 .fact {
@@ -827,11 +884,69 @@ h4 {
   height: 1000px;
 }
 
+.fern_5 {
+  background-image: linear-gradient(90deg, rgba(19, 32, 25, 0.976) 0%, rgba(19, 32, 25, 0.974) 50%, rgba(19, 32, 25, 0.967) 100%),
+    url(./img/fern/fern-6.png);
+  width: 550px;
+  height: 550px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  rotate: 50deg;
+  z-index: -1;
+}
+
+.fern_6 {
+  background-image: linear-gradient(90deg, rgba(19, 32, 25, 0.977) 0%, rgba(19, 32, 25, 0.954) 50%, rgba(19, 32, 25, 0.97) 100%),
+    url(./img/fern/fern5.png);
+  width: 350px;
+  height: 350px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 500px;
+  top: -100px;
+  rotate: -50deg;
+  z-index: -1;
+}
+
+/* .fern_7 {
+  background-image: linear-gradient(90deg, rgba(19,32,25,1) 0%, rgba(19, 32, 25, 0.982) 50%, rgb(19, 32, 25) 100%),
+    url(./img/fern/fern-4.png);
+  width: 450px;
+  height: 100px;
+  filter: blur(1px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  rotate: -10deg;
+  z-index: -1;
+} */
+
 .best {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  position: relative;
 }
 
 .team_1 {
